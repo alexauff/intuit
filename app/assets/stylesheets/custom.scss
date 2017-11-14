@@ -1,0 +1,150 @@
+
+/* HEADER */
+header { 
+		display: flex;       /* disposition en boites flexibles */
+		justify-content: flex-end;  /* disposition à droite */
+		padding-right: 25px;
+		line-height: 0.4;
+}
+
+#text {
+    font-size: 12px;
+    margin: 0px 10px 0px 0px;
+}
+
+a {
+		color:#0077c5;
+		text-decoration: none;   /* surlignage, bold de la typo etc. */
+} 
+
+#rech {
+    background-color: #0077C5;
+		border: 1px solid #4c4c4c;
+    border-radius: 4px;     /* angles */
+    padding: 0 20px;
+    color: white;
+    cursor: pointer;
+		height :34px;						/* hauteur */
+		padding: 0px 20px 0px 20px;
+    font-size: 13px;
+    /* background-image: url('icon_lock.png'); pour insérer un petit cadenas dans le bouton */
+}
+
+/* BODY */
+
+body {
+		display: flex;
+		flex-direction: column;
+		background-color: #eceef1;  /* couleur de fond*/
+		font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight: normal;
+		color: #505050;
+}
+
+#intuit {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 380px;
+		padding: 30px;
+		margin: auto;
+		box-sizing: border-box;
+	  background-color: #fff;
+	  border: 1px solid #c7c7c7;
+}
+
+#logos {
+		justify-content: space-between;
+		background-color: #fff;
+		margin-bottom: 20px;
+}
+
+
+#formulaire #titre {
+    font-size: 24px;
+}
+
+#formulaire {
+		border-top: 1px solid #e2e1e1;
+		text-align: center;
+	}
+
+form {
+    text-align: left;
+}
+
+#formulaire p {
+    font-size: 14px;
+}
+
+#formulaire a {
+    font-size: 12px;
+}
+
+.field {
+    font-size: 14px;
+}
+
+.field p {
+    font-size: 10px;
+}
+
+.field input {
+		width: 100%; /* pour prendre toute la largeur*/
+		height: 34px;
+    padding: 0px; /* largeur intérieur de l'input */
+  	border: 1px solid #CCC;
+  	margin: 10px 0 30px 0;
+}	
+
+.actions input { 
+		background-color: #0077C5;
+		border: 1px solid #4c4c4c; /* bordure*/
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;          /* largeur*/
+    padding: 6px 12px;    /* marge intérieure*/
+    white-space: nowrap;
+    margin-bottom: 10px;  /* marge en bas*/
+}
+
+#Warning {
+    font-size: 12px;
+    line-height: 1.4;    /* interlignage*/
+    font-style: italic;
+    color: #bbb;
+}
+
+/* FOOTER */
+
+#logo {
+		width: 100%;
+    text-align: center;
+    padding-top: 20px;   /* marge intérieure haute*/
+    margin-bottom: 25px;
+}
+
+#ML {
+		text-align: center;
+    font-size: 12px;
+   	line-height: 0.4;
+		width: 100%;
+    
+}
+
+#ML a {
+    color: #505050;
+}
+
+a:hover {								/* effet survol souris */
+	text-decoration: underline;
+}
+    
